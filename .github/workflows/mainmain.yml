@@ -6,7 +6,7 @@ on:
       agent_name:
         description: 'Nama Agen'
         required: true
-        default: 'Alheri70'
+        default: 'Alheri'
       agent_description:
         description: 'Deskripsi Agen'
         required: true
@@ -38,4 +38,4 @@ jobs:
 
       - name: Step 3 - Link Human to Agent
         run: |
-          node scripts/manualLinkHumanToAgent.js --challenge '{"name": "Alheri70", "description
+          node scripts/manualLinkHumanToAgent.js --challenge '{"name": "Alheri", "description
